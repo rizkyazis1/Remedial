@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class siswa {
+            Nama = "azis";
+            kelas = "X PPLG 2";
+            umur = 16; 
+            tanggal_lahir = "31 maret 2023";
+        }
+        class siswarpl extends siswa {
+            Lab = "RPL";
+            Jurusan = "RPL";
+            ngoding(){
+                return "sedang membuat program";
+            }
+        }
+        var siswarpl1 = new siswarpl ();
+        
+        document.write(siswarpl1.Nama + "<br />" + siswarpl1.kelas + "<br />")
+        document.write(siswarpl1.umur + "<br />" + siswarpl1. tanggal_lahir+"<br />")
+        document.write(siswarpl1.Lab + "<br />" + siswarpl1.Jurusan + "<br />")
+        document.write(siswarpl1.ngoding());
+    </script>
+</body>
+</html>
